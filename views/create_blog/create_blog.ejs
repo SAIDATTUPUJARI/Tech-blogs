@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Blog</title>
+    <link href="./create_blog.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="adnewbutton">
+        <form action="/add_new" method="post">
+            <label for="title">Title:</label><br>
+            <input class="form-container" type="text" id="title" name="title" placeholder="Enter your title here"><br>
+            <label for="content">Content:</label><br>
+            <textarea class="blog-container" name="content" id="content" placeholder="Enter your content here"></textarea><br>
+            <button type="submit">Add New</button>
+        </form>
+    </div>
+</body>
+</html>

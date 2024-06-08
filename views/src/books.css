@@ -1,0 +1,7 @@
+.books{
+    display: flex;
+    gap: 50px;
+}
+.book{
+    width: 100px;
+}
